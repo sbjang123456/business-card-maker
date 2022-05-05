@@ -3422,7 +3422,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@firebase/util", "npm:1.5.2"],\
             ["@firebase/webchannel-wrapper", "npm:0.6.1"],\
             ["@grpc/grpc-js", "npm:1.6.7"],\
-            ["@grpc/proto-loader", "npm:0.6.9"],\
+            ["@grpc/proto-loader", "npm:0.6.10"],\
             ["@types/firebase__app", null],\
             ["node-fetch", "virtual:084d16491d4bf36981c406186cb15c90f28e4eaa9629fb91a1f1e73b59d1239afb5569b3d401f981af793ac04d67d689fd470922b40f995e4732b70a3abd9714#npm:2.6.7"],\
             ["tslib", "npm:2.4.0"]\
@@ -3443,7 +3443,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@firebase/util", "npm:1.5.2"],\
             ["@firebase/webchannel-wrapper", "npm:0.6.1"],\
             ["@grpc/grpc-js", "npm:1.6.7"],\
-            ["@grpc/proto-loader", "npm:0.6.9"],\
+            ["@grpc/proto-loader", "npm:0.6.10"],\
             ["@types/firebase__app", null],\
             ["node-fetch", "virtual:084d16491d4bf36981c406186cb15c90f28e4eaa9629fb91a1f1e73b59d1239afb5569b3d401f981af793ac04d67d689fd470922b40f995e4732b70a3abd9714#npm:2.6.7"],\
             ["tslib", "npm:2.4.0"]\
@@ -4029,20 +4029,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@grpc-grpc-js-npm-1.6.7-2e10ef0dbb-2668b08c2e.zip/node_modules/@grpc/grpc-js/",\
           "packageDependencies": [\
             ["@grpc/grpc-js", "npm:1.6.7"],\
-            ["@grpc/proto-loader", "npm:0.6.9"],\
+            ["@grpc/proto-loader", "npm:0.6.10"],\
             ["@types/node", "npm:17.0.31"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@grpc/proto-loader", [\
-        ["npm:0.6.9", {\
-          "packageLocation": "./.yarn/cache/@grpc-proto-loader-npm-0.6.9-25554b0c4d-30081a5a6e.zip/node_modules/@grpc/proto-loader/",\
+        ["npm:0.6.10", {\
+          "packageLocation": "./.yarn/cache/@grpc-proto-loader-npm-0.6.10-90d1fe1000-0ccdafd845.zip/node_modules/@grpc/proto-loader/",\
           "packageDependencies": [\
-            ["@grpc/proto-loader", "npm:0.6.9"],\
+            ["@grpc/proto-loader", "npm:0.6.10"],\
             ["@types/long", "npm:4.0.2"],\
             ["lodash.camelcase", "npm:4.3.0"],\
-            ["long", "npm:4.0.0"],\
+            ["long", "npm:5.2.0"],\
             ["protobufjs", "npm:6.11.2"],\
             ["yargs", "npm:16.2.0"]\
           ],\
@@ -11924,6 +11924,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/long-npm-4.0.0-ecd96a31ed-16afbe8f74.zip/node_modules/long/",\
           "packageDependencies": [\
             ["long", "npm:4.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:5.2.0", {\
+          "packageLocation": "./.yarn/cache/long-npm-5.2.0-bbbd23a9e6-37aa4e67b9.zip/node_modules/long/",\
+          "packageDependencies": [\
+            ["long", "npm:5.2.0"]\
           ],\
           "linkType": "HARD"\
         }]\

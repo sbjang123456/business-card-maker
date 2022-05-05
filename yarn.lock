@@ -2117,17 +2117,17 @@ __metadata:
   linkType: hard
 
 "@grpc/proto-loader@npm:^0.6.0, @grpc/proto-loader@npm:^0.6.4":
-  version: 0.6.9
-  resolution: "@grpc/proto-loader@npm:0.6.9"
+  version: 0.6.10
+  resolution: "@grpc/proto-loader@npm:0.6.10"
   dependencies:
     "@types/long": ^4.0.1
     lodash.camelcase: ^4.3.0
-    long: ^4.0.0
+    long: ^5.2.0
     protobufjs: ^6.10.0
     yargs: ^16.2.0
   bin:
     proto-loader-gen-types: build/bin/proto-loader-gen-types.js
-  checksum: 30081a5a6e866506d8e799ebed00367024a2710b9b990104d804fe23c60d81d5ccaa74ad14bd0bedfab6fb313eccbc18e0bbcf3bda7f3288d8eb31cab040255f
+  checksum: 0ccdafd845eca8fa211625885c0d00b1e1005af14e85cd3dc96e1c869e41226628b1c9b384fc78ddea9ced71ce6f88410eba8e7c072d64de299b74e3ed35ba07
   languageName: node
   linkType: hard
 
@@ -8530,6 +8530,13 @@ __metadata:
   version: 4.0.0
   resolution: "long@npm:4.0.0"
   checksum: 16afbe8f749c7c849db1f4de4e2e6a31ac6e617cead3bdc4f9605cb703cd20e1e9fc1a7baba674ffcca57d660a6e5b53a9e236d7b25a295d3855cca79cc06744
+  languageName: node
+  linkType: hard
+
+"long@npm:^5.2.0":
+  version: 5.2.0
+  resolution: "long@npm:5.2.0"
+  checksum: 37aa4e67b9c3eebc6d9d675adcc9d06f06059ca268922a71273de389746bf07f0ff282f9e604d17fdf84c4149099b44e936ea2b621a6c4759a216621afa97efd
   languageName: node
   linkType: hard
 
